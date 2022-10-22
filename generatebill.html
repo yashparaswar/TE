@@ -34,17 +34,18 @@
         font-size: 12px;margin-bottom: 3px;
     }
     form > div > input{
-        font-size:12px;letter-spacing:1px;padding:  5px;border: 0;background:  whitesmoke;border-bottom: 1px solid silver;width: 100%;color: gray;
+        font-size:12px;letter-spacing:1px;padding:  5px;border: 0;background:  rgb(251, 245, 245);border-bottom: 1px solid silver;width: 100%;color: gray;
     }
 
     form > p:last-of-type{
-        text-align: center;padding-top: 50px;display:  table;width: 100%;color:white;
+        text-align: center;padding-top: 50px;display:  table;width: 100%;color:rgb(22, 21, 21);
     }
 
     form > p:last-of-type > a{
         cursor:pointer;border:0;
+        /* text-decoration-color: bisque; */
         padding: 10px 25px;
-        background:  silver;
+        background:  rgb(246, 241, 241);
         border-radius:  28px;
         font-size: 12px; 
     }
@@ -84,6 +85,9 @@
 <div style="display:flex;width:100%;">
     <form>
         <div style="width:100%;">
+            Date Of Bill: <input type = "date">
+        </div>
+        <div style="width:100%;">
             <p>FULL NAME</p>
             <input name="name" autofocus>
         </div>
@@ -96,9 +100,8 @@
         
 
         
-
         <p>
-            <a>SUBMIT</a>
+            <a>GENERATE BILL</a>
         </p>
         
     </form> 
